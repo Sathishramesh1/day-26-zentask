@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+
+
+.card {
+  
+  width: 18rem;
+  min-height: 450px;
+  max-height: 450px;
+}
+
+
+
+.navbar1{
+  position: absolute;
+  left: 0px;
+  top:12%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  
+  
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+ overflow: hidden;
+ flex-wrap: wrap;
+ /* position: relative; */
+ 
+
+}
+
+.container{
+  display: flex;
+  list-style-type: none;
+gap: 2rem;
+margin-left: calc(40%);
+padding-top: 2rem;
+font-family: sans-serif;
+font-weight: bold;
+color: #535b62;
+
+  
+  
+
+}
+img{
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  
+}
+.body{
+  position: absolute;
+  left: 7.5%;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+  
+}
+.btn{
+  color: green;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.card-footer{
+  font-size: small;
+  opacity: 90%;
+}
+
+.header{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.logo{
+  margin-left: 7.5vw;
+}
+
+li {
+  border-bottom: transparent;
+}
+li:hover{
+  border-bottom: 3px solid green;
+  
+}
+li:active{
+  border-bottom: 3px solid green;
+}
+li a{
+  color: #535b62;
+  text-decoration: none;
+  
+}
+li a:hover{
+  color: green;
+}
+.top-nav{
+  position: absolute;
+  top: 0px;
+  left:40vw;
+}
+.upper-nav{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+.upper-nav li{
+  width: max-content;
+  color: #535b62;
+  font-weight: bold;
+}
